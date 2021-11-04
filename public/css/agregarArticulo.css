@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500&display=swap');
+
+body{
+    font-family: 'Andada Pro', serif;
+    color: honeydew;
+}
+
+.imgFondo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.4);
+    width: 100%;
+}
+
+.botones-articulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.miTop{
+    margin-top: 10rem !important;
+    padding: 3rem;
+    
+}
+
+input{
+    background-color: #f6dbbbc7 !important;
+    padding: .5rem;
+}
+
+#enviar{
+    margin-top: 3rem;
+    width: 30%;
+    background-color: coral !important;
+    color: honeydew;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500&display=swap');
+
+body{
+    font-family: 'Andada Pro', serif;
+}
+
+.mi-header{
+    height: auto;
+}
+
+.mi-estilos-container{
+   background-color: cornsilk;
+}
+
+.mi-estilo-ul-nav{
+    
+    width: 100%;
+}
+
+.botones{
+    border: none;
+    border-radius: 1.5px;
+    background-color: #f09d44a2;
+    color: #2F4D4D;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.contenedor-imagen-cliente{
+
+    background-color: blanchedalmond;
+    background-image: url(../img/trato.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    filter: brightness(0.9);
+}
+/* seccion registro articulo inventario */
+
+#mostrarInventario{
+    display: none;
+}
+
+.mi-img-bg-inventario{
+    background-color: blanchedalmond;
+    background-image: url(../img/articulos.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    filter: brightness(0.9);
+    height: 70vh;
+}
+
+.mi-estilo-botones{
+    text-decoration: none !important;
+    color: cornsilk;
+    text-align: center;
+    display: block;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #01B97B;
+    border-radius: 2.5px;
+}
+
+.mi-estilo-botones:hover{
+    
+    color: rgb(224, 224, 224);
+    background-color: #00905D;
+    
+}
+
+
+/* seccioon ventas */
+.mi-img-bg-ventas{
+    border:solid 1px;
+}
+
+.listado{
+    height: 50vh;
+    font-size: 1.5rem;
+    
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500&display=swap');
+
+body{
+    font-family: 'Andada Pro', serif;
+}
+.contenedor-login{
+    height: 100vh;
+    padding: .5rem;
+    
+}
+
+.contenedor-login{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+
+}
+
+.login{
+   background-color: #fdf2ffd3;
+   width: 400px;
+   height: auto;
+   position: relative;
+   
+
+}
+
+.mi-estilo-fondo-login{
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.5);
+    width: 100%;
+    
+}
+
+.mi-estilo-input-login{
+    border-radius: 1.5px;
+    width: 100%;
+    padding: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.mi-estilo-btn-login{
+    background-color: #f1403a;
+    border-radius: 1.5px;
+    border: none;
+    color: aliceblue;
+    width: 100%;
+    padding: .5rem;
+    margin-top: 2rem;
+}
+
+.mi-estilo-btn-login:hover{
+
+    background-color: #5D962E;
+    cursor: pointer;
+    transition: all .8s;
+
+}
